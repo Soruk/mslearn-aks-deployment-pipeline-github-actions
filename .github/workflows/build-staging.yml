@@ -64,7 +64,7 @@ jobs:
         uses: Azure/aks-set-context@v1
         with:
           # Resource Group Name
-          resource-group: {resource-group}
+          resource-group: mslearn-gh-pipelines-19909
           # AKS Cluster Name
           cluster-name: mslearn-gh-pipelines-19909
           creds: ${{ secrets.AZURE_CREDENTIALS }}
